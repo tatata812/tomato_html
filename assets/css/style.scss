@@ -542,7 +542,7 @@ main-visual
     margin: 0 auto 80px;
 
     @include tab {
-      margin: 0 auto 60px;
+      margin: 0 auto 40px;
 
     }
   }
@@ -606,7 +606,7 @@ main-visual
     margin: 120px auto 0;
 
     @include tab {
-      margin: 60px auto 0;
+      margin: 0 auto 0;
 
     }
   }
@@ -631,7 +631,7 @@ main-visual
     margin: 0 auto 80px;
 
     @include tab {
-      margin: 0 auto 60px;
+      margin: 0 auto 40px;
 
     }
   }
@@ -678,7 +678,7 @@ main-visual
     margin: 80px auto 0;
 
     @include tab {
-      margin: 60px auto 0;
+      margin: 0 auto 0;
 
     }
   }
@@ -728,7 +728,7 @@ main-visual
     margin: 0 auto 80px;
 
     @include tab {
-      margin: 0 auto 60px;
+      margin: 0 auto;
 
     }
   }
@@ -809,7 +809,6 @@ main-visual
     max-width: 780px;
     margin: 0 auto;
     display: flex;
-    padding: 24px 0 0;
     gap: 60px;
     align-items: center;
 
@@ -824,7 +823,7 @@ main-visual
     width: 30%;
 
     @include sp {
-      max-width: 220px;
+      max-width: 200px;
       width: 100%;
     }
   }
