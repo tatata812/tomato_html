@@ -887,7 +887,14 @@ main-visual
 
  ================================= */
 
-.aaa {
+.about-section {
+
+  padding: 80px 16px;
+
+  @include tab {
+    padding: 40px 16px;
+
+  }
 
   &__ {}
 
