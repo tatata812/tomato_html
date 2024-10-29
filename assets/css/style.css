@@ -824,15 +824,175 @@ main-visual
     margin: 60px auto 0;
   }
 }
-/* =================================
 
- ================================= */
 /* =================================
-
+トマトにとって最適な環境を
  ================================= */
+.environment-section {
+  padding: 80px 16px;
+}
+@media (max-width: 820px) {
+  .environment-section {
+    padding: 40px 16px;
+  }
+}
+.environment-section__item {
+  max-width: 780px;
+  margin: 0 auto 80px;
+}
+@media (max-width: 820px) {
+  .environment-section__item {
+    margin: 0 auto 60px;
+  }
+}
+.environment-section__item-ttl {
+  max-width: 500px;
+  margin: 0 0 14px;
+}
+@media (max-width: 600px) {
+  .environment-section__item-ttl {
+    max-width: 300px;
+    margin: 0 0 12px;
+  }
+}
+.environment-section__item-flex {
+  max-width: 780px;
+  margin: 0 auto;
+  display: flex;
+  border-top: #007c36 1px solid;
+  padding: 24px 0 0;
+  gap: 24px;
+}
+@media (max-width: 600px) {
+  .environment-section__item-flex {
+    flex-direction: column;
+  }
+}
+.environment-section__item-left {
+  width: 50%;
+}
+@media (max-width: 600px) {
+  .environment-section__item-left {
+    width: 100%;
+  }
+}
+.environment-section__item-right {
+  flex: 1;
+}
+.environment-section__bottom-img {
+  max-width: 800px;
+  margin: 80px auto 0;
+}
+@media (max-width: 820px) {
+  .environment-section__bottom-img {
+    margin: 60px auto 0;
+  }
+}
 /* =================================
-
+旨味を実現する土耕栽培
  ================================= */
+.cultivation-section {
+  padding: 80px 16px;
+}
+@media (max-width: 820px) {
+  .cultivation-section {
+    padding: 40px 16px;
+  }
+}
+.cultivation-section__item {
+  max-width: 780px;
+  margin: 0 auto 80px;
+}
+@media (max-width: 820px) {
+  .cultivation-section__item {
+    margin: 0 auto 60px;
+  }
+}
+.cultivation-section__item-ttl {
+  max-width: 640px;
+  margin: 0 0 14px;
+}
+@media (max-width: 600px) {
+  .cultivation-section__item-ttl {
+    margin: 0 0 12px;
+  }
+}
+.cultivation-section__item-ttl--second {
+  max-width: 780px;
+}
+.cultivation-section__item-flex {
+  max-width: 780px;
+  margin: 0 auto;
+  display: flex;
+  border-top: #007c36 1px solid;
+  padding: 24px 0 0;
+  gap: 24px;
+}
+@media (max-width: 600px) {
+  .cultivation-section__item-flex {
+    flex-direction: column;
+  }
+}
+.cultivation-section__item-left {
+  width: 50%;
+}
+@media (max-width: 600px) {
+  .cultivation-section__item-left {
+    width: 100%;
+  }
+}
+.cultivation-section__item-right {
+  flex: 1;
+}
+/* =================================
+ビバトマの由来
+ ================================= */
+.origin-section {
+  padding: 40px 16px;
+}
+@media (max-width: 820px) {
+  .origin-section {
+    padding: 40px 16px;
+  }
+}
+.origin-section__flex {
+  max-width: 780px;
+  margin: 0 auto;
+  display: flex;
+  padding: 24px 0 0;
+  gap: 60px;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .origin-section__flex {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+.origin-section__left {
+  width: 30%;
+}
+@media (max-width: 600px) {
+  .origin-section__left {
+    max-width: 220px;
+    width: 100%;
+  }
+}
+.origin-section__right {
+  flex: 1;
+}
+.origin-section__text {
+  margin: 0 0 12px;
+}
+.origin-section__bottom-img {
+  max-width: 800px;
+  margin: 60px auto 0;
+}
+@media (max-width: 820px) {
+  .origin-section__bottom-img {
+    margin: 24px auto 0;
+  }
+}
 /* =================================
 
  ================================= */

@@ -541,7 +541,7 @@ main-visual
     max-width: 880px;
     margin: 0 auto 80px;
 
-    @include tab{
+    @include tab {
       margin: 0 auto 60px;
 
     }
@@ -605,10 +605,172 @@ main-visual
     max-width: 800px;
     margin: 120px auto 0;
 
-    @include tab{
+    @include tab {
       margin: 60px auto 0;
 
     }
+  }
+
+}
+
+/* =================================
+トマトにとって最適な環境を
+ ================================= */
+
+.environment-section {
+
+  padding: 80px 16px;
+
+  @include tab {
+    padding: 40px 16px;
+
+  }
+
+  &__item {
+    max-width: 780px;
+    margin: 0 auto 80px;
+
+    @include tab {
+      margin: 0 auto 60px;
+
+    }
+  }
+
+  &__item-ttl {
+    max-width: 500px;
+    margin: 0 0 14px;
+
+    @include sp {
+      max-width: 300px;
+      margin: 0 0 12px;
+
+    }
+
+  }
+
+  &__item-flex {
+    max-width: 780px;
+    margin: 0 auto;
+    display: flex;
+    border-top: #007c36 1px solid;
+    padding: 24px 0 0;
+    gap: 24px;
+
+    @include sp {
+      flex-direction: column;
+    }
+  }
+
+  &__item-left {
+    width: 50%;
+
+    @include sp {
+      width: 100%;
+    }
+  }
+
+  &__item-right {
+    flex: 1;
+  }
+
+  &__bottom-img {
+    max-width: 800px;
+    margin: 80px auto 0;
+
+    @include tab {
+      margin: 60px auto 0;
+
+    }
+  }
+
+
+    &__ {}
+
+    &__ {}
+
+    &__ {}
+
+    &__ {}
+
+    &__ {}
+
+    &__ {}
+
+    &__ {}
+
+    &__ {}
+
+    &__ {}
+
+    &__ {}
+
+    &__ {}
+
+
+}
+
+/* =================================
+旨味を実現する土耕栽培
+ ================================= */
+
+.cultivation-section {
+
+
+  padding: 80px 16px;
+
+  @include tab {
+    padding: 40px 16px;
+
+  }
+
+  &__item {
+    max-width: 780px;
+    margin: 0 auto 80px;
+
+    @include tab {
+      margin: 0 auto 60px;
+
+    }
+  }
+
+  &__item-ttl {
+    max-width: 640px;
+    margin: 0 0 14px;
+
+    @include sp {
+      margin: 0 0 12px;
+    }
+
+    &--second {
+      max-width: 780px;
+
+    }
+
+  }
+
+  &__item-flex {
+    max-width: 780px;
+    margin: 0 auto;
+    display: flex;
+    border-top: #007c36 1px solid;
+    padding: 24px 0 0;
+    gap: 24px;
+
+    @include sp {
+      flex-direction: column;
+    }
+  }
+
+  &__item-left {
+    width: 50%;
+
+    @include sp {
+      width: 100%;
+    }
+  }
+
+  &__item-right {
+    flex: 1;
   }
 
   &__ {}
@@ -627,116 +789,64 @@ main-visual
 
   &__ {}
 
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
 
 }
 
 /* =================================
-
+ビバトマの由来
  ================================= */
 
-.aaa {
+.origin-section {
 
-  &__ {}
+  padding: 40px 16px;
 
-  &__ {}
+  @include tab {
+    padding: 40px 16px;
 
-  &__ {}
+  }
 
-  &__ {}
+  &__flex {
+    max-width: 780px;
+    margin: 0 auto;
+    display: flex;
+    padding: 24px 0 0;
+    gap: 60px;
+    align-items: center;
 
-  &__ {}
+    @include sp {
+      flex-direction: column;
+      gap: 24px;
 
-  &__ {}
+    }
+  }
 
-  &__ {}
+  &__left {
+    width: 30%;
 
-  &__ {}
+    @include sp {
+      max-width: 220px;
+      width: 100%;
+    }
+  }
 
-  &__ {}
+  &__right {
+    flex: 1;
+  }
 
-  &__ {}
+  &__text {
+    margin: 0 0 12px;
+  }
+  
+  &__bottom-img {
+    max-width: 800px;
+    margin: 60px auto 0;
 
-  &__ {}
+    @include tab {
+      margin: 24px auto 0;
 
-  &__ {}
+    }
+  }
 
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
-}
-
-/* =================================
-
- ================================= */
-
-.aaa {
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
-}
-
-/* =================================
-
- ================================= */
-
-.aaa {
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
 
   &__ {}
 
