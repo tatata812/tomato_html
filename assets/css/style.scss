@@ -728,9 +728,18 @@ main-visual
     margin: 0 auto 80px;
 
     @include tab {
-      margin: 0 auto;
+      margin: 0 auto 40px;
 
     }
+
+    &:last-of-type{
+      @include tab {
+        margin: 0 auto;
+
+      }
+    }
+
+
   }
 
   &__item-ttl {
