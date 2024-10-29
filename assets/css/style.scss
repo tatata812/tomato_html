@@ -807,7 +807,7 @@ main-visual
 
 .origin-section {
 
-  padding: 40px 16px;
+  padding: 40px 16px 80px;
 
   @include tab {
     padding: 40px 16px;
@@ -884,17 +884,335 @@ main-visual
 }
 
 /* =================================
-
+ビバ ! ファームについて
  ================================= */
 
 .about-section {
 
   padding: 80px 16px;
+  overflow: hidden;
 
   @include tab {
-    padding: 40px 16px;
+    padding: 40px 16px 20px;
 
   }
+
+  &__logo {
+    max-width: 320px;
+    margin: 0 auto 120px;
+
+    @include sp{
+      max-width: 220px;
+      margin: 0 auto 60px;
+    }
+  }
+
+  &__concept {
+    max-width: 620px;
+    margin: 0 auto 80px;
+
+    @include sp{
+      max-width: 300px;
+      margin: 0 auto 40px;
+  
+    }
+  }
+
+  &__concept-content {
+    background-image: url(../img/about-bg.jpg);
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    margin: 0 calc(50% - 50vw) 80px;
+width: 100vw;
+
+@include sp{
+  height: 400px;
+  margin: 0 calc(50% - 50vw) 40px;
+
+}
+  }
+
+  &__concept-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 500px;
+
+    @include sp{
+      min-width: 320px;
+
+    }
+  }
+
+  &__lead {
+    color: #007c36;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 0 80px;
+
+    @include tab{
+      font-size: 14px;
+      text-align: left;
+      margin: 0 0 40px;
+
+
+    }
+  }
+
+  &__flex {
+    max-width: 880px;
+    margin: 0 auto 12px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+    @include sp {
+      flex-direction: column;
+      gap: 24px;
+    margin: 0 auto 0px;
+
+    }
+  }
+
+  &__left {
+    width: 55%;
+
+    @include sp {
+      max-width: 320px;
+      width: 100%;
+    }
+  }
+
+  &__right {
+    flex: 1;
+  }
+
+
+  &__messsage-text {
+    margin: 0 0 20px;
+  }
+
+  &__messsage-ttl {
+    max-width: 220px;
+    margin: 0 0 28px;
+
+    @include tab{
+      margin: 0 auto 12px;
+
+    }
+  }
+
+  &__messsage-bottom-text {
+    max-width: 880px;
+    margin: 0 auto;
+
+    &--right {
+      text-align: right;
+      margin: 0 auto 80px;
+
+      span {
+        font-size: 150%;
+      }
+
+      @include sp{
+        margin: 0 auto 40px;
+
+      }
+    }
+  }
+  
+  &__btn {
+    display: block;
+    max-width: 580px;
+    margin: 0 auto;
+
+    @include tab {
+      max-width: 380px;
+
+    }
+  }
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+
+}
+
+/* =================================
+インスタグラム
+ ================================= */
+
+.insta-section {
+
+  padding: 80px 16px;
+
+  @include tab {
+    padding: 20px 16px 20px;
+  }
+
+  &__ttl {
+    max-width: 260px;
+    margin: 0 auto 40px;
+
+    @include sp{
+      max-width: 200px;
+
+    }
+  }
+
+  &__content {
+    max-width: 980px;
+    margin: 0 auto;
+    height: 300px;
+    background-color: #e8f4d9;
+  }
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+
+
+}
+
+/* =================================
+取扱店舗
+ ================================= */
+
+ .store-section {
+
+  padding: 80px 16px;
+
+  @include tab {
+    padding: 20px 16px 20px;
+  }
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+
+}
+
+
+/* =================================
+アクセス
+ ================================= */
+
+ .access-section {
+  padding: 80px 16px;
+  overflow: hidden;
+
+  @include tab {
+    padding: 40px 16px 20px;
+
+  }
+
+  &__flex {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+    border-left: #bababa 1px solid; 
+    border-right: #bababa 1px solid; 
+    align-items: center;
+
+
+  }
+
+  &__left {
+    width: 50%;
+    padding: 16px 0 16px 50px;
+  }
+
+  &__right {
+    width: 50%;
+    border-left: #bababa 1px solid; 
+    padding: 16px 0 16px 30px;
+
+
+  }
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+
+}
+
+/* =================================
+
+ ================================= */
+
+ .aaa {
 
   &__ {}
 
@@ -937,7 +1255,50 @@ main-visual
 
  ================================= */
 
-.aaa {
+ .aaa {
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+
+}
+
+/* =================================
+
+ ================================= */
+
+ .aaa {
 
   &__ {}
 
