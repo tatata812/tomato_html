@@ -957,7 +957,6 @@ width: 100vw;
       text-align: left;
       margin: 0 0 40px;
 
-
     }
   }
 
@@ -1099,7 +1098,43 @@ width: 100vw;
   padding: 80px 16px;
 
   @include tab {
-    padding: 20px 16px 20px;
+    padding: 40px 16px 40px;
+  }
+
+  &__lead {
+    max-width: 755px;
+    color: #007c36;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto 80px;
+
+    @include tab{
+      font-size: 14px;
+      text-align: left;
+      margin: 0 0 40px;
+
+    }
+  }
+
+  &__store-list {
+    margin: 0 auto 80px;
+
+    @include sp{
+      margin: 0 auto 40px;
+
+
+    }
+  }
+
+  &__btn {
+    display: block;
+    max-width: 580px;
+    margin: 0 auto;
+
+    @include tab {
+      max-width: 380px;
+
+    }
   }
 
   &__ {}
@@ -1128,14 +1163,75 @@ width: 100vw;
 
   &__ {}
 
-  &__ {}
+}
 
-  &__ {}
+.store-list {
+  max-width: 980px;
+  display: flex;
+  gap: 40px;
 
-  &__ {}
+  @include sp{
+    flex-wrap: wrap;
+  }
 
-  &__ {}
 
+  &__item {
+    width: calc((100% - 40px) / 2);
+
+    @include sp{
+    width: 100%;
+    }
+  }
+
+  &__name {
+    color: #ff0000;
+    font-size: 20px;
+    font-weight: normal;
+
+    @include sp{
+      font-size: 16px;
+
+    }
+  }
+
+  &__img {
+
+    img {
+      width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    }
+  }
+
+  &__adress {}
+
+  &__tel {}
+
+
+  &__map-wrap {
+    margin: 0 0 12px;
+  }
+
+  &__map {
+    width: 100%;
+    height: 0;
+    position: relative;
+    padding-top: 55.25%;
+    overflow: hidden;
+
+    @include sp{
+      padding-top: 65.25%;
+
+    }
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
 
 }
 
