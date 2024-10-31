@@ -36,6 +36,8 @@ header
  ================================= */
 
 .header {
+  background-image: url(../img/sub-bg.jpg);
+  background-size: cover;
 
 
   &__logo-wrap {
@@ -54,7 +56,7 @@ header
     @include tab {
       transform: scale(0.5);
       right: -68px;
-      top: -20px;
+      top: -15px;
 
 
     }
@@ -137,6 +139,47 @@ header
     font-size: 12px;
 
   }
+
+  // 下層ページ追加分
+
+  &__wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 34px 12px ; 
+
+    @include tab{
+      padding: 0px 12px ; 
+
+    }
+  }
+
+  &__ttl {
+    background-color: #8cc63f;
+    color: #fff;
+    width: 400px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    border-radius: 40px;
+    border: 2px solid #fff;
+
+    @include tab{
+      transform: scale(0.45);
+      margin-left: -100px;
+      width: 360px;
+
+    }
+  }
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
 }
 
 
@@ -172,6 +215,11 @@ header
     left: 50%;
     transform: translate(-50%, 0);
     width: 80%;
+
+    @include sp{
+      top: 100px;
+
+    }
   }
 
 
@@ -1169,10 +1217,8 @@ width: 100vw;
   max-width: 980px;
   display: flex;
   gap: 40px;
-
-  @include sp{
-    flex-wrap: wrap;
-  }
+  flex-wrap: wrap;
+  justify-content: center;
 
 
   &__item {
@@ -1180,6 +1226,7 @@ width: 100vw;
 
     @include sp{
     width: 100%;
+    max-width: 420px;
     }
   }
 
@@ -1498,14 +1545,48 @@ padding: 0;
 }
 
 /* =================================
-
+店舗一覧
  ================================= */
 
- .aaa {
+ .archive-store {
 
-  &__ {}
+  padding: 80px 12px 0;
 
-  &__ {}
+
+  @include tab{
+    padding: 40px 12px 0;
+  }
+
+  &__top-img {
+    max-width: 800px;
+    margin: 0 auto 80px;
+
+    @include tab{
+      max-width: 400px;
+      margin: 0 auto 20px;
+
+    }
+  }
+
+  &__store-list {
+    margin: 0 auto 80px;
+
+    @include sp{
+      margin: 0 auto 40px;
+
+
+    }
+
+
+    .store-list__item {
+      margin: 0 0 80px;
+
+      @include sp{
+        margin: 0 ;
+
+      }
+    }
+  }
 
   &__ {}
 

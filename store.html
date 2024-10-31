@@ -1,0 +1,256 @@
+<!-- <?php
+  $des="サイト説明文が入ります。サイト説明文が入ります。サイト説明文が入ります。サイト説明文が入ります。サイト説明文が入ります。"
+  ; ?> -->
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="email=no,telephone=no,address=no">
+  <!--!!!!!!!!!!!!!!!!!WPでは不要!!!!!!!!!!!!!!!!!!!!!-->
+  <title>店舗一覧 │ 山口県宇部市にあるビバ ! ファーム</title>
+  <meta name="description" content="<?php echo $des; ?>">
+  <!--!!!!!!!!!!!!!!!!!公開時、allに変更する!!!!!!!!!!!!!!!!!!!!!-->
+  <meta name="robots" content="none">
+  <meta property="og:type" content="website">
+  <meta property="og:title"
+    content="<?php wp_title( '-', true, 'right' ); ?><?php bloginfo( 'name' ); ?> | <?php echo $des; ?>">
+  <meta property="og:description" content="<?php echo $des; ?>">
+  <meta property="og:site_name"
+    content="<?php wp_title( '-', true, 'right' ); ?><?php bloginfo( 'name' ); ?> | <?php echo $des; ?>">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/fb.jpg">
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title"
+    content="<?php wp_title( '-', true, 'right' ); ?><?php bloginfo( 'name' ); ?> | <?php echo $des; ?>">
+  <meta name="twitter:description" content="<?php echo $des; ?>">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <link rel="stylesheet" href="assets/css/html5reset-1.6.1.css">
+  <link rel="stylesheet" href="assets/css/style.css?20230220">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body class="wrap">
+
+  <header class="header wrap-header">
+
+    <!-- 下層 -->
+    <div class="header__wrap">
+      <h1 class="header__ttl">取扱店舗</h1>
+      <div class="header__logo-wrap">
+        <a href="index.html" class="header__logo">
+          <img src="assets/img/header-logo.png" alt="">
+        </a>
+        <div class="header__open-btn">
+          <span></span><span></span><span></span>
+          <p class="header__open-btn-text">MENU</p>
+        </div>
+      </div>
+    </div>
+    <!-- 下層 -->
+
+
+    <div class="main-menu">
+      <div class="main-menu__inner">
+        <nav>
+          <ul class="main-menu__nav-list">
+            <li class="main-menu__nav-item"><a href="index.html" class="main-menu__nav-link">ホーム</a>
+              <ul class="main-menu__nav-list main-menu__nav-list--child">
+                <li class="main-menu__nav-item main-menu__nav-item--child"><a href="index.html#info-section"
+                    class="main-menu__nav-link">》&emsp;新着情報</a></li>
+                <li class="main-menu__nav-item main-menu__nav-item--child"><a href="index.html#feature-section"
+                    class="main-menu__nav-link">》&emsp;ビバトマの特徴</a></li>
+                <li class="main-menu__nav-item main-menu__nav-item--child"><a href="index.html#environment-section"
+                    class="main-menu__nav-link">》&emsp;太陽光利用型植物ICTで<br>
+                    &emsp;&emsp;トマトにとって最適な環境を</a></li>
+                <li class="main-menu__nav-item main-menu__nav-item--child"><a href="index.html#cultivation-section"
+                    class="main-menu__nav-link">》&emsp;酵素の働きをフル活用<br>
+                    &emsp;&emsp;旨味を実現する土耕栽培</a></li>
+                <li class="main-menu__nav-item main-menu__nav-item--child"><a href="index.html#origin-section"
+                    class="main-menu__nav-link">》
+                    ビバトマの由来</a></li>
+                <li class="main-menu__nav-item main-menu__nav-item--child"><a href="index.html#about-section"
+                    class="main-menu__nav-link">》
+                    ビバ!ファームについて</a></li>
+                <li class="main-menu__nav-item main-menu__nav-item--child"><a href="store.html"
+                    class="main-menu__nav-link">》
+                    取扱店舗</a></li>
+              </ul>
+            </li>
+            <li class="main-menu__nav-item"><a href="#" class="main-menu__nav-link">アクセス</a></li>
+            <li class="main-menu__nav-item"><a href="#" class="main-menu__nav-link">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+
+  </header>
+
+  <div class="main archive-store">
+
+    <div class="archive-store__top-img">
+<img src="assets/img/store-top-img.png" alt="ビバトマは山口県内の農作物直売所やスーパーマーケットの直産コーナーなどで販売しております。自然の力で育む甘酸っぱい絶品トマトをぜひお買い求めください。" class="pc-block">
+<img src="assets/img/store-top-img-sp.png" alt="ビバトマは山口県内の農作物直売所やスーパーマーケットの直産コーナーなどで販売しております。自然の力で育む甘酸っぱい絶品トマトをぜひお買い求めください。" class="sp-block">
+
+    </div>
+
+    <div class="store-list archive-store__store-list">
+      <article class="store-list__item">
+
+        <h3 class="store-list__name">店舗の名前</h3>
+        <div class="store-list__img">
+          <img src="assets/img/store01.jpg" alt="">
+        </div>
+        <div class="store-list__map-wrap">
+          <div class="store-list__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7921.530425231635!2d131.22673676331928!3d34.00316337641817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354381b3dd31e303%3A0x3232db4bfff1e49e!2z44CSNzU5LTAxMjQg5bGx5Y-j55yM5a6H6YOo5biC5bqD54Cs!5e0!3m2!1sja!2sjp!4v1730214233434!5m2!1sja!2sjp"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <p class="store-list__adress">
+          〒755-0000<br>
+          山口県宇部市〇〇〇〇〇〇〇 0丁目00番00号
+        </p>
+        <p class="store-list__tel">TEL.<a href="tel:0836-00-0000">0836-00-0000</a></p>
+      </article>
+      <article class="store-list__item">
+
+        <h3 class="store-list__name">店舗の名前</h3>
+        <div class="store-list__img">
+          <img src="assets/img/store02.jpg" alt="">
+        </div>
+        <div class="store-list__map-wrap">
+          <div class="store-list__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7921.530425231635!2d131.22673676331928!3d34.00316337641817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354381b3dd31e303%3A0x3232db4bfff1e49e!2z44CSNzU5LTAxMjQg5bGx5Y-j55yM5a6H6YOo5biC5bqD54Cs!5e0!3m2!1sja!2sjp!4v1730214233434!5m2!1sja!2sjp"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <p class="store-list__adress">
+          〒755-0000<br>
+          山口県宇部市〇〇〇〇〇〇〇 0丁目00番00号
+        </p>
+        <p class="store-list__tel">TEL.<a href="tel:0836-00-0000">0836-00-0000</a></p>
+      </article>
+
+      <article class="store-list__item">
+
+        <h3 class="store-list__name">店舗の名前</h3>
+        <div class="store-list__img">
+          <img src="assets/img/store01.jpg" alt="">
+        </div>
+        <div class="store-list__map-wrap">
+          <div class="store-list__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7921.530425231635!2d131.22673676331928!3d34.00316337641817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354381b3dd31e303%3A0x3232db4bfff1e49e!2z44CSNzU5LTAxMjQg5bGx5Y-j55yM5a6H6YOo5biC5bqD54Cs!5e0!3m2!1sja!2sjp!4v1730214233434!5m2!1sja!2sjp"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <p class="store-list__adress">
+          〒755-0000<br>
+          山口県宇部市〇〇〇〇〇〇〇 0丁目00番00号
+        </p>
+        <p class="store-list__tel">TEL.<a href="tel:0836-00-0000">0836-00-0000</a></p>
+      </article>
+      <article class="store-list__item">
+
+        <h3 class="store-list__name">店舗の名前</h3>
+        <div class="store-list__img">
+          <img src="assets/img/store02.jpg" alt="">
+        </div>
+        <div class="store-list__map-wrap">
+          <div class="store-list__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7921.530425231635!2d131.22673676331928!3d34.00316337641817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354381b3dd31e303%3A0x3232db4bfff1e49e!2z44CSNzU5LTAxMjQg5bGx5Y-j55yM5a6H6YOo5biC5bqD54Cs!5e0!3m2!1sja!2sjp!4v1730214233434!5m2!1sja!2sjp"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <p class="store-list__adress">
+          〒755-0000<br>
+          山口県宇部市〇〇〇〇〇〇〇 0丁目00番00号
+        </p>
+        <p class="store-list__tel">TEL.<a href="tel:0836-00-0000">0836-00-0000</a></p>
+      </article>
+
+
+    </div>
+
+
+
+  </div>
+  <!--main end-->
+
+
+  <footer class="footer">
+    <div class="footer__logo-wrap">
+      <a href="" class="footer__logo-left"><img src="assets/img/footer-logo.png" alt=""></a>
+      <a href="" class="footer__logo-right"><img src="assets/img/footer-viva-logo.png" alt=""></a>
+    </div>
+    <div class="footer__address-wrap">
+      <div class="footer__address-left">
+        <p class="footer__address-ttl">株式会社オータニ</p>
+        <table class="footer__address-table">
+          <tr>
+            <th>住所</th>
+            <td>〒755-0054</td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>山口県宇部市助田町7-13</td>
+          </tr>
+          <tr>
+            <th>TEL</th>
+            <td><a href="tel:0836-33-7878">0836-33-7878</a></td>
+          </tr>
+          <tr>
+            <th>FAX</th>
+            <td>0836-33-1056</td>
+          </tr>
+        </table>
+      </div>
+      <div class="footer__address-right">
+        <p class="footer__address-ttl">ビバ ! ファーム</p>
+        <table class="footer__address-table">
+          <tr>
+            <th>住所</th>
+            <td>〒759-0124</td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>山口県宇部市厚東広瀬</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="footer__menu-wrap">
+      <p class="footer__menu-item footer__menu-item--copy">©ビバ ! ファーム All Right Reserved.</p>
+      <a href="" class="footer__menu-item">サイトマップ</a>
+      <a href="" class="footer__menu-item">利用規約</a>
+      <a href="" class="footer__menu-item">個人情報保護方針</a>
+
+    </div>
+    <a href="#" class="footer__go-top"><img src="assets/img/go-top.png" alt="TOPへ"></a>
+
+  </footer>
+
+
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="assets/js/main.js">
+  </script>
+</body>
+
+</html>

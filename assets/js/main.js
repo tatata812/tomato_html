@@ -27,7 +27,7 @@ $(function () {
 
 
 // ヘッダーロゴの動き
-  $('.header__logo-wrap').hide();
+  $('.header-js').hide();
   // スクロールイベントの設定
   $(window).scroll(function() {
       // .contents-sectionの位置を取得
@@ -37,8 +37,8 @@ $(function () {
 
       // スクロール位置が.contents-sectionに達したら
       if (scrollTop >= infoSectionTop) {
-          // .header__logo-wrapをふわっと表示
-          $('.header__logo-wrap').fadeIn(500);
+          // .header-jsをふわっと表示
+          $('.header-js').fadeIn(500);
       }
   });
   
