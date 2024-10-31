@@ -355,7 +355,7 @@ header
   z-index: 100;
   right: -120%;
   width: 420px;
-  height: 90vh;
+  height: 95vh;
   background-color: #8cc63f;
   border-radius: 0 0 0 32px;
   transition: all 0.6s;
@@ -374,7 +374,7 @@ header
 }
 .main-menu__inner {
   position: absolute;
-  top: 160px;
+  top: 144px;
   left: 50%;
   transform: translate(-50%, 0);
   width: 80%;
@@ -410,7 +410,7 @@ main-visual
   }
 }
 .main-visual__top {
-  max-width: 560px;
+  max-width: 520px;
   margin: 0px auto 0;
   animation-name: zoomInAnime;
   animation-duration: 1.2s;
@@ -425,7 +425,7 @@ main-visual
   }
 }
 .main-visual__logo {
-  max-width: 320px;
+  max-width: 280px;
   margin: 40px auto 0;
   animation-name: zoomInAnime;
   animation-duration: 0.8s;
@@ -438,7 +438,7 @@ main-visual
   }
 }
 .main-visual__bottom {
-  max-width: 560px;
+  max-width: 500px;
   margin: 40px auto 0;
   animation-name: zoomInAnime;
   animation-duration: 1.2s;
