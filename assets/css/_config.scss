@@ -238,6 +238,35 @@ th,td {
 
 }
 
+
+// その他のページ
+
+.page {
+
+  padding: 80px 12px;
+
+
+  @include tab {
+    padding: 40px 12px;
+  }
+  &__content {
+max-width: 1120px;
+margin: 0 auto;
+  }
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+
+  &__ {}
+}
+
 //フェードイン　アニメーション
 
 .fade-in-js {
