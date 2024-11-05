@@ -62,7 +62,8 @@ li {
   font-size: clamp(0.813rem, 0.79rem + 0.11vw, 0.875rem);
 }
 
-th,td {
+th,
+td {
   font-size: clamp(0.813rem, 0.79rem + 0.11vw, 0.875rem);
 
 }
@@ -84,18 +85,15 @@ th,td {
 }
 
 
-.main {
-
-
-}
+.main {}
 
 // トップセクションタイトル
 
 .top-ttl-img {
   max-width: 920px;
   margin: 0 auto 60px;
-  
-  @include tab{
+
+  @include tab {
     max-width: 460px;
     margin: 0 auto 40px;
 
@@ -112,10 +110,8 @@ th,td {
 }
 
 
-
 // お知らせカード
 .info-list {
-
 
   &__article {
     display: flex;
@@ -146,14 +142,11 @@ th,td {
 
     &--1 {
       background-color: #afdf8e;
-
     }
 
     &--2 {
       background-color: #ffbe78;
-
     }
-
   }
 
   &__article-ttl {
@@ -169,7 +162,6 @@ th,td {
 
 
 // 店舗カード
-
 .store-list {
   max-width: 980px;
   display: flex;
@@ -206,11 +198,6 @@ th,td {
     }
   }
 
-  &__adress {}
-
-  &__tel {}
-
-
   &__map-wrap {
     margin: 0 0 12px;
   }
@@ -235,36 +222,40 @@ th,td {
       height: 100%;
     }
   }
-
 }
 
 
 // その他のページ
-
 .page {
 
   padding: 80px 12px;
 
-
   @include tab {
     padding: 40px 12px;
   }
+
   &__content {
-max-width: 1120px;
-margin: 0 auto;
+    max-width: 1120px;
+    margin: 0 auto;
+
+    &--404 {
+      padding: 80px 0;
+
+
+      p {
+        font-size: 20px;
+        text-align: center;
+      }
+
+      @include sp{
+        padding: 40px 0;
+
+        p {
+          font-size: 16px;
+        }
+      }
+    }
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
 }
 
 //フェードイン　アニメーション
@@ -280,33 +271,6 @@ margin: 0 auto;
   }
 }
 
-
-// Slick設定
-
-.slick-prev:before {
-  background: url(../img/top/main-visual-arrow_l.png) !important;
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-  font-size: 36px;
-  opacity: 1 !important;
-
-}
-
-.slick-next:before {
-  background: url(../img/top/main-visual-arrow_r.png) !important;
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-  font-size: 36px;
-  opacity: 1 !important;
-
-
-}
-
-.slick-dots li.slick-active button:before {
-  color: #1b1464 !important;
-  opacity: 1 !important;
-
-}
 
 // エディター設定
 
@@ -331,7 +295,6 @@ margin: 0 auto;
 
   p {
     margin: 0 0 12px;
-
   }
 
   h1 {

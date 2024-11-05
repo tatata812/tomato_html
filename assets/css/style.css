@@ -40,7 +40,8 @@ li {
   font-size: clamp(0.813rem, 0.79rem + 0.11vw, 0.875rem);
 }
 
-th, td {
+th,
+td {
   font-size: clamp(0.813rem, 0.79rem + 0.11vw, 0.875rem);
 }
 
@@ -189,6 +190,22 @@ th, td {
   max-width: 1120px;
   margin: 0 auto;
 }
+.page__content--404 {
+  padding: 80px 0;
+}
+.page__content--404 p {
+  font-size: 20px;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .page__content--404 {
+    padding: 40px 0;
+  }
+  .page__content--404 p {
+    font-size: 16px;
+  }
+}
+
 .fade-in-js {
   transform: scale(0.9);
   transition: all 0.5s 0s linear;
@@ -197,27 +214,6 @@ th, td {
 .fade-in-js.action {
   transform: scale(1);
   opacity: 1;
-}
-
-.slick-prev:before {
-  background: url(../img/top/main-visual-arrow_l.png) !important;
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-  font-size: 36px;
-  opacity: 1 !important;
-}
-
-.slick-next:before {
-  background: url(../img/top/main-visual-arrow_r.png) !important;
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-  font-size: 36px;
-  opacity: 1 !important;
-}
-
-.slick-dots li.slick-active button:before {
-  color: #1b1464 !important;
-  opacity: 1 !important;
 }
 
 .page-style__block {
@@ -395,6 +391,7 @@ header
     width: 360px;
   }
 }
+
 .main-menu {
   position: fixed;
   top: 0;
@@ -565,6 +562,7 @@ main-visual
     width: calc((100% - 12px) / 2);
   }
 }
+
 /* =================================
 新着情報
  ================================= */
@@ -647,6 +645,7 @@ main-visual
     max-width: 380px;
   }
 }
+
 /* =================================
 3つの特徴
  ================================= */
@@ -789,6 +788,7 @@ main-visual
     margin: 0 auto 0;
   }
 }
+
 /* =================================
 旨味を実現する土耕栽培
  ================================= */
@@ -850,6 +850,7 @@ main-visual
 .cultivation-section__item-right {
   flex: 1;
 }
+
 /* =================================
 ビバトマの由来
  ================================= */
@@ -898,6 +899,7 @@ main-visual
     margin: 24px auto 0;
   }
 }
+
 /* =================================
 ビバ ! ファームについて
  ================================= */
@@ -1033,6 +1035,7 @@ main-visual
     max-width: 380px;
   }
 }
+
 /* =================================
 インスタグラム
  ================================= */
@@ -1059,6 +1062,7 @@ main-visual
   height: 300px;
   background-color: #e8f4d9;
 }
+
 /* =================================
 取扱店舗
  ================================= */
@@ -1102,6 +1106,7 @@ main-visual
     max-width: 380px;
   }
 }
+
 /* =================================
 アクセス
  ================================= */
@@ -1165,6 +1170,7 @@ main-visual
   width: 100%;
   height: 100%;
 }
+
 /* =================================
 フッター
  ================================= */
@@ -1289,6 +1295,7 @@ main-visual
     bottom: 100px;
   }
 }
+
 /* =================================
 店舗一覧
  ================================= */
@@ -1326,6 +1333,7 @@ main-visual
     margin: 0;
   }
 }
+
 /* =================================
 お知らせ
  ================================= */
@@ -1444,6 +1452,7 @@ main-visual
   align-items: center;
   margin: 0 0 40px;
 }
+
 /* =================================
 お問い合わせ
  ================================= */

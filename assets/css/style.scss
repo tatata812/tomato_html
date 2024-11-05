@@ -22,13 +22,10 @@ html {
   scroll-behavior: smooth;
 }
 
-
 * {
   word-break: break-word;
   box-sizing: border-box;
 }
-
-
 
 
 /* =================================
@@ -38,7 +35,6 @@ header
 .header {
   background-image: url(../img/sub-bg.jpg);
   background-size: cover;
-
 
   &__logo-wrap {
     position: fixed;
@@ -60,7 +56,6 @@ header
     }
   }
 
-
   &__logo {
     width: 180px;
 
@@ -68,7 +63,6 @@ header
       padding: 4px 8px;
     }
   }
-
 
   &__open-btn {
     background-color: #ff0000;
@@ -78,8 +72,6 @@ header
     width: 70px;
     height: 70px;
     border-radius: 70px;
-
-    @include pc {}
 
     span {
       display: inline-block;
@@ -134,11 +126,9 @@ header
     color: #fff;
     left: 18px;
     font-size: 12px;
-
   }
 
   // 下層ページ追加分
-
   &__wrap {
     max-width: 1200px;
     margin: 0 auto;
@@ -146,7 +136,6 @@ header
 
     @include tab {
       padding: 0px 12px;
-
     }
   }
 
@@ -164,19 +153,8 @@ header
       transform: scale(0.45);
       margin-left: -100px;
       width: 360px;
-
     }
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
 }
 
 
@@ -198,8 +176,6 @@ header
     width: 100%;
     border-radius: 0 0 0 0;
     height: 100vh;
-
-
   }
 
   &.open-menu {
@@ -215,7 +191,6 @@ header
 
     @include sp {
       top: 100px;
-
     }
   }
 
@@ -257,8 +232,6 @@ main-visual
     padding: 100px 8px 40px;
   }
 
-  &__content {}
-
   &__top {
     max-width: 520px;
     margin: 0px auto 0;
@@ -268,7 +241,6 @@ main-visual
     animation-fill-mode: forwards;
     filter: drop-shadow(4px 4px 4px #4c4c4c);
     opacity: 0;
-
 
     @include tab {
       max-width: 300px;
@@ -283,7 +255,6 @@ main-visual
     animation-duration: 0.8s;
     animation-fill-mode: forwards;
     filter: drop-shadow(4px 4px 4px #4c4c4c);
-
 
     @include tab {
       max-width: 220px;
@@ -300,14 +271,11 @@ main-visual
     filter: drop-shadow(4px 4px 4px #4c4c4c);
     opacity: 0;
 
-
     @include tab {
       max-width: 300px;
       margin: 40px auto 0;
-
     }
   }
-
 
   @keyframes zoomInAnime {
     from {
@@ -318,11 +286,8 @@ main-visual
     to {
       transform: scale(1);
       opacity: 1;
-
     }
   }
-
-
 }
 
 /* =================================
@@ -334,7 +299,6 @@ main-visual
 
   @include tab {
     padding: 40px 12px;
-
   }
 
   &__img {
@@ -344,12 +308,10 @@ main-visual
     @include tab {
       max-width: 200px;
       margin: 0 auto 20px;
-
     }
 
     @include sp {
       max-width: 120px;
-
     }
   }
 
@@ -371,7 +333,6 @@ main-visual
 
     @include tab {
       gap: 12px;
-
     }
   }
 
@@ -383,34 +344,6 @@ main-visual
 
     }
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 /* =================================
@@ -423,7 +356,6 @@ main-visual
 
   @include tab {
     padding: 60px 8px;
-
   }
 
   &__inner {
@@ -436,7 +368,6 @@ main-visual
 
     @include tab {
       padding: 32px 16px 40px;
-
     }
   }
 
@@ -451,8 +382,6 @@ main-visual
       width: 50px;
       top: -60px;
       top: -40px;
-
-
     }
   }
 
@@ -466,8 +395,6 @@ main-visual
     @include tab {
       font-size: 22px;
       margin: 0 0 18px;
-
-
     }
   }
 
@@ -480,8 +407,6 @@ main-visual
     @include tab {
       width: 60px;
       top: -24px;
-
-
     }
   }
 
@@ -490,11 +415,8 @@ main-visual
 
     @include tab {
       margin: 0 0 40px;
-
     }
   }
-
- 
 
   &__btn {
     display: block;
@@ -503,25 +425,8 @@ main-visual
 
     @include tab {
       max-width: 380px;
-
     }
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 /* =================================
@@ -533,7 +438,6 @@ main-visual
 
   @include tab {
     padding: 40px 16px;
-
   }
 
   &__item {
@@ -542,7 +446,6 @@ main-visual
 
     @include tab {
       margin: 0 auto 40px;
-
     }
   }
 
@@ -552,7 +455,6 @@ main-visual
 
     @include sp {
       margin: 0 0 16px;
-
     }
 
     &--second {
@@ -564,14 +466,11 @@ main-visual
 
       @include sp {
         max-width: 280px;
-
       }
-
     }
 
     &--third {
       max-width: 820px;
-
     }
   }
 
@@ -606,10 +505,8 @@ main-visual
 
     @include tab {
       margin: 0 auto 0;
-
     }
   }
-
 }
 
 /* =================================
@@ -622,7 +519,6 @@ main-visual
 
   @include tab {
     padding: 40px 16px;
-
   }
 
   &__item {
@@ -631,7 +527,6 @@ main-visual
 
     @include tab {
       margin: 0 auto 40px;
-
     }
   }
 
@@ -642,9 +537,7 @@ main-visual
     @include sp {
       max-width: 300px;
       margin: 0 0 12px;
-
     }
-
   }
 
   &__item-flex {
@@ -681,31 +574,6 @@ main-visual
 
     }
   }
-
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 /* =================================
@@ -714,12 +582,10 @@ main-visual
 
 .cultivation-section {
 
-
   padding: 80px 16px;
 
   @include tab {
     padding: 40px 16px;
-
   }
 
   &__item {
@@ -728,17 +594,13 @@ main-visual
 
     @include tab {
       margin: 0 auto 40px;
-
     }
 
     &:last-of-type {
       @include tab {
         margin: 0 auto;
-
       }
     }
-
-
   }
 
   &__item-ttl {
@@ -751,9 +613,7 @@ main-visual
 
     &--second {
       max-width: 780px;
-
     }
-
   }
 
   &__item-flex {
@@ -780,24 +640,6 @@ main-visual
   &__item-right {
     flex: 1;
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 /* =================================
@@ -810,7 +652,6 @@ main-visual
 
   @include tab {
     padding: 40px 16px;
-
   }
 
   &__flex {
@@ -823,7 +664,6 @@ main-visual
     @include sp {
       flex-direction: column;
       gap: 24px;
-
     }
   }
 
@@ -850,36 +690,8 @@ main-visual
 
     @include tab {
       margin: 24px auto 0;
-
     }
   }
-
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 /* =================================
@@ -1031,16 +843,6 @@ main-visual
 
     }
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 /* =================================
@@ -1061,7 +863,6 @@ main-visual
 
     @include sp {
       max-width: 200px;
-
     }
   }
 
@@ -1071,21 +872,6 @@ main-visual
     height: 300px;
     background-color: #e8f4d9;
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
-
 }
 
 /* =================================
@@ -1111,7 +897,6 @@ main-visual
       font-size: 14px;
       text-align: left;
       margin: 0 0 40px;
-
     }
   }
 
@@ -1120,8 +905,6 @@ main-visual
 
     @include sp {
       margin: 0 auto 40px;
-
-
     }
   }
 
@@ -1132,36 +915,8 @@ main-visual
 
     @include tab {
       max-width: 380px;
-
     }
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
 }
 
 
@@ -1177,7 +932,6 @@ main-visual
 
   @include tab {
     padding: 40px 16px 0;
-
   }
 
   &__flex {
@@ -1187,8 +941,6 @@ main-visual
     border-left: #bababa 1px solid;
     border-right: #bababa 1px solid;
     align-items: center;
-
-
   }
 
   &__left {
@@ -1209,7 +961,6 @@ main-visual
     @include sp {
       padding: 10px 0 10px 18px;
     }
-
   }
 
   &__map-wrap {
@@ -1237,32 +988,6 @@ main-visual
       height: 100%;
     }
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 /* =================================
@@ -1280,8 +1005,6 @@ main-visual
   a {
     color: #fff;
   }
-
-
 
   &__logo-wrap {
     display: flex;
@@ -1322,8 +1045,6 @@ main-visual
       border-right: none;
       max-width: 280px;
       gap: 40px;
-
-
     }
   }
 
@@ -1337,7 +1058,6 @@ main-visual
       width: 100%;
       border-right: none;
       padding: 0;
-
     }
   }
 
@@ -1349,8 +1069,6 @@ main-visual
       width: 100%;
       border-right: none;
       padding: 0;
-
-
     }
   }
 
@@ -1360,7 +1078,6 @@ main-visual
 
     @include tab {
       margin: 0 0 8px;
-
     }
   }
 
@@ -1412,22 +1129,6 @@ main-visual
 
     }
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 /* =================================
@@ -1450,7 +1151,6 @@ main-visual
     @include tab {
       max-width: 400px;
       margin: 0 auto 20px;
-
     }
   }
 
@@ -1459,8 +1159,6 @@ main-visual
 
     @include sp {
       margin: 0 auto 40px;
-
-
     }
 
 
@@ -1469,42 +1167,9 @@ main-visual
 
       @include sp {
         margin: 0;
-
       }
     }
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
 
 /* =================================
@@ -1518,7 +1183,6 @@ main-visual
 
   @include tab {
     padding: 0 8px 40px;
-
   }
 
   &__inner {
@@ -1540,7 +1204,6 @@ main-visual
       @include tab {
         padding: 24px 16px 40px;
       }
-
     }
   }
 
@@ -1554,12 +1217,9 @@ main-visual
     @include tab {
       width: 70px;
       top: -70px;
-
-
     }
   }
 
-  
 
   &__ttl-img {
     width: 90px;
@@ -1570,8 +1230,6 @@ main-visual
     @include tab {
       width: 60px;
       top: -24px;
-
-
     }
   }
 
@@ -1595,7 +1253,6 @@ text-align: center;
 
     @include tab{
       font-size: 18px;
-
     }
   }
 
@@ -1619,14 +1276,11 @@ text-align: center;
 
     &--1 {
       background-color: #afdf8e;
-
     }
 
     &--2 {
       background-color: #ffbe78;
-
     }
-
   }
 
   &__content {
@@ -1649,10 +1303,6 @@ text-align: center;
     margin: 0 0 40px;
 
   }
-
-  &__ {}
-
-
 }
 
 /* =================================
@@ -1675,7 +1325,6 @@ text-align: center;
 
     @include sp{
       margin: 0 auto 40px;
-
     }
   }
 
@@ -1687,7 +1336,6 @@ text-align: center;
     @include tab {
       width: 98%;
       margin: 0 auto 40px;
-
     }
 
     tr {
@@ -1695,10 +1343,7 @@ text-align: center;
 
       &:first-of-type {
         border-top: #017c36 dotted 1px;
-
       }
-
-
     }
 
 
@@ -1731,7 +1376,6 @@ text-align: center;
       @include tab {
         display: block;
         padding: 8px;
-
       }
 
 
@@ -1778,24 +1422,4 @@ text-align: center;
     padding: 8px;
     cursor: pointer;
   }
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-  &__ {}
-
-
 }
